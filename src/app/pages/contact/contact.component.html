@@ -1,0 +1,47 @@
+<section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contacto</h2>
+        <p>Para más información contactame por via Correo Electronico llenando el siguiente formulario.</p>
+      </div>
+
+      <div class="row" data-aos="fade-in">
+
+        <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <form  method="post" role="form" class="php-email-form">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Favor de poner más de 4 caracteres" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="name">Correo Electronico</label>
+                <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Favor de introducir un correo valido" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="name">Asunto</label>
+              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Favor de introducir más de 8 caracteres" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label for="name">Mensaje</label>
+              <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Favor de introducir un mensaje claro"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Cargando</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Su mensaje se ha enviado con exito!</div>
+            </div>
+            <div class="text-center"><button type="submit">Enviar</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
